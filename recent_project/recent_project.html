@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recent Project — Dhanushka Gayan</title>
+  <style>
+    :root{
+      --max-width: 900px;
+      --body-font: Georgia, "Times New Roman", Times, serif;
+      --ui-font: Arial, Helvetica, sans-serif;
+      --muted: #555;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: var(--body-font);
+      color:#111;
+      background:#fff;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .container{
+      max-width:var(--max-width);
+      margin:48px auto;
+      padding:24px;
+    }
+
+    header{
+      text-align:center;
+      margin-bottom:36px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:36px;
+      letter-spacing:1px;
+      font-weight:400;
+    }
+
+    .project{
+      margin-bottom:48px;
+      line-height:1.6;
+    }
+
+    .project h2{
+      margin:0 0 6px 0;
+      font-size:20px;
+      font-weight:700;
+      font-family:var(--ui-font);
+    }
+
+    .project a.site{
+      display:inline-block;
+      margin-bottom:14px;
+      color:#0b66c3;
+      text-decoration:underline;
+      font-family:var(--ui-font);
+      font-size:14px;
+    }
+
+    .lead{
+      font-size:16px;
+      color:var(--muted);
+      margin-bottom:18px;
+      max-width:80ch;
+    }
+
+    .muted-list{
+      margin:16px 0 20px 0;
+      color:var(--muted);
+    }
+
+    ul.bullets{
+      margin:12px 0 18px 22px;
+    }
+
+    .revamp{
+      margin:0 0 20px 0;
+    }
+
+    .quote {
+      font-family:var(--ui-font);
+      font-size:18px;
+      color:#333;
+      margin:18px 0 0 0;
+      padding-left:18px;
+      border-left:4px solid #eee;
+      line-height:1.5;
+    }
+
+    /* NKAR Booking section */
+    .keywords {
+      margin-top:12px;
+      font-weight:700;
+      font-family:var(--ui-font);
+      letter-spacing:0.2px;
+    }
+    .keyword-list{
+      list-style: none;
+      padding:0;
+      margin:10px 0 18px 0;
+    }
+    .keyword-list li::before{
+      content: "★";
+      display:inline-block;
+      width:20px;
+      margin-right:6px;
+      color:#000;
+      font-family: var(--ui-font);
+    }
+    .keyword-list li{
+      margin:6px 0;
+      font-weight:600;
+    }
+
+    .result {
+      font-family:var(--ui-font);
+      background:#fafafa;
+      border-radius:6px;
+      padding:14px;
+      margin-top:14px;
+      line-height:1.5;
+      font-size:14px;
+    }
+
+    /* small screens */
+    @media (max-width:520px){
+      header h1{font-size:28px}
+      .container{padding:16px;margin:20px auto}
+    }
+
+    /*images*/
+
+    .image_grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .image_row img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .image_grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Recent Project</h1>
+    </header>
+
+    <!-- SearchSriLanka project -->
+    <section class="project" id="searchsrilanka">
+      <h2>searchsrilanka.com</h2>
+      <a class="site" href="https://searchsrilanka.com/" target="_blank" rel="noopener noreferrer">https://searchsrilanka.com/</a>
+
+      <p class="lead">
+        The website SearchSriLanka.com was previously built on WordPress and has now been successfully migrated to a custom PHP framework to improve performance, flexibility, and SEO optimization.
+      </p>
+
+      <p class="muted-list">The previous WordPress website faced challenges such as</p>
+      <ul class="bullets">
+        <li>Slower performance and longer page load times</li>
+        <li>Limited flexibility for customization</li>
+        <li>Some widgets may not load or get stuck while loading</li>
+        <li>Certain style changes may not appear on the live website</li>
+      </ul>
+
+      <p class="revamp"><strong>Revamp Approach</strong></p>
+      <ul class="bullets">
+        <li>Migrated from WordPress CMS to a custom PHP framework.</li>
+        <li>Optimized code structure for better speed and responsiveness.</li>
+        <li>Improved UI/UX design for easier navigation.</li>
+        <li>Applied SEO best practices during development.</li>
+        <li>Enhanced accessibility standards for broader usability.</li>
+      </ul>
+
+      <p class="quote">
+        The migration to a custom PHP platform has positively impacted search engine indexing and visibility. With more pages indexed and higher impressions, the website is now better positioned for organic traffic growth.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- NKARBooking project -->
+    <section class="project" id="nkarbooking">
+      <h2>nkarbooking.com</h2>
+      <a class="site" href="https://nkarbooking.com/" target="_blank" rel="noopener noreferrer">https://nkarbooking.com/</a>
+
+      <p class="lead">
+        I designed and developed NKARBooking from the ground up. My process began by creating the sitemap and wireframes. Following this, I produced designs in Figma, which I then implemented using responsive HTML and CSS. The backend was developed using PHP, and the project was successfully completed by implementing on-page SEO and performance optimization measures.
+      </p>
+
+      <div class="keywords">KEYWORDS</div>
+      <ul class="keyword-list" aria-label="project keywords">
+        <li>outbound tour operators in sri lanka</li>
+        <li>outbound tour operators sri lanka</li>
+        <li>outbound travel agents in sri lanka</li>
+        <li>sri lanka outbound travel agents</li>
+        <li>travel booking</li>
+      </ul>
+      
+      
+      <div class="image_grid">
+        <div class="image_row">
+          <img src="image_second.png" alt="">
+        </div>
+        <div class="image_row">
+          <img src="image_first.png" alt="">
+        </div>
+      </div>
+
+      <div class="result">
+        <p><strong>My work included</strong> keyword research, on-page optimization, and technical SEO improvements. As a result, the site achieved strong search visibility and ranked 1–4 for multiple high-value outbound travel keywords in Sri Lanka, including:</p>
+
+        <ul class="bullets" style="margin-left:22px;">
+          <li>outbound travel operators in Sri Lanka</li>
+          <li>outbound travel agents in Sri Lanka</li>
+          <li>Sri Lanka outbound travel agents</li>
+          <li>outbound tour operators Sri Lanka</li>
+        </ul>
+
+        <p style="margin-top:10px;">
+          Using a fully optimized site structure and content strategy, NKARBooking reached <strong>77.9% search visibility</strong>, placing ahead of major competitors like Jetwing Travels and TravelCo. These improvements helped increase the client's organic reach and strengthen competitive positioning in the travel sector.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
+
